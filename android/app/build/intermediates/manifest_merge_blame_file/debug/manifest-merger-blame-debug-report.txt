@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartbizzattendance"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:3:3-65
+12-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:4:3-63
+13-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:4:20-60
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:5:3-79
+14-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:5:20-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:6:3-77
+15-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:6:20-74
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:7:3-78
+16-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:7:20-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.75.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.75.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+18-->[:react-native-biometrics] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-biometrics/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-72
+18-->[:react-native-biometrics] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-biometrics/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-69
+19    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+19-->[:react-native-biometrics] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-biometrics/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-74
+19-->[:react-native-biometrics] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-biometrics/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-71
+20
+21    <uses-feature
+21-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[:react-native-camera] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+27
+28    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+28-->[:react-native-fingerprint-scanner] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-91
+28-->[:react-native-fingerprint-scanner] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-88
+29    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+29-->[:react-native-fingerprint-scanner] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-117
+29-->[:react-native-fingerprint-scanner] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-114
+30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+31-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+32
+33    <uses-feature
+33-->[com.google.android.gms:play-services-maps:17.0.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+34        android:glEsVersion="0x00020000"
+34-->[com.google.android.gms:play-services-maps:17.0.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+35        android:required="true" />
+35-->[com.google.android.gms:play-services-maps:17.0.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+36
+37    <application
+37-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:3-23:17
+38        android:name="com.smartbizzattendance.MainApplication"
+38-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:16-47
+39        android:allowBackup="false"
+39-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:162-189
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/3975ffd70914deb17405b14313b8e4ba/core-1.3.1/AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:81-115
+43        android:label="@string/app_name"
+43-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:48-80
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:116-161
+45        android:theme="@style/AppTheme"
+45-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:9:190-221
+46        android:usesCleartextTraffic="true" >
+46-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/debug/AndroidManifest.xml:8:9-44
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/debug/AndroidManifest.xml:11:9-86
+47-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/debug/AndroidManifest.xml:11:19-83
+48        <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+49        <meta-data
+49-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:12:5-119
+50            android:name="com.google.android.geo.API_KEY"
+50-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:12:16-61
+51            android:value="AIzaSyDfXbqc5BmfCm9JdaggTICxx-8GXDRHBsg" /> <!-- You will also only need to add this uses-library tag -->
+51-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:12:62-117
+52        <uses-library
+52-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:15:5-83
+53            android:name="org.apache.http.legacy"
+53-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:15:19-56
+54            android:required="false" />
+54-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:15:57-81
+55
+56        <activity
+56-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:5-22:16
+57            android:name="com.smartbizzattendance.MainActivity"
+57-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:15-43
+58            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+58-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:77-154
+59            android:label="@string/app_name"
+59-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:44-76
+60            android:launchMode="singleTask"
+60-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:155-186
+61            android:screenOrientation="portrait"
+61-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:230-266
+62            android:windowSoftInputMode="adjustResize" >
+62-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:17:187-229
+63            <intent-filter>
+63-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:18:7-21:23
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:19:9-61
+64-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:19:17-58
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:20:9-69
+66-->/Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/android/app/src/main/AndroidManifest.xml:20:19-66
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+71            android:name="com.imagepicker.ImagePickerProvider"
+71-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+72            android:authorities="com.smartbizzattendance.imagepickerprovider"
+72-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+73            android:exported="false"
+73-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+74            android:grantUriPermissions="true" >
+74-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+75            <meta-data
+75-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+77                android:resource="@xml/imagepicker_provider_paths" />
+77-->[:react-native-image-picker] /Users/satryawiguna/Documents/Projects/Mobileapps/SmartBiz v2.0/SmartBizAttendance/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+78        </provider>
+79
+80        <activity
+80-->[androidx.biometric:biometric:1.0.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+81            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+81-->[androidx.biometric:biometric:1.0.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:29:13-78
+82            android:exported="true"
+82-->[androidx.biometric:biometric:1.0.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:30:13-36
+83            android:theme="@style/DeviceCredentialHandlerTheme" />
+83-->[androidx.biometric:biometric:1.0.1] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:31:13-64
+84
+85        <service
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+86            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+87            android:directBootAware="true"
+87-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+88            android:exported="false" >
+88-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+89            <meta-data
+89-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+90                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+90-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+93                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+93-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+95            <meta-data
+95-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+96                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+96-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+98            <meta-data
+98-->[com.google.mlkit:vision-common:16.5.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+99                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+99-->[com.google.mlkit:vision-common:16.5.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.mlkit:vision-common:16.5.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+101            <meta-data
+101-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+102                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+102-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+104        </service>
+105
+106        <provider
+106-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+107            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+107-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+108            android:authorities="com.smartbizzattendance.mlkitinitprovider"
+108-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+109            android:exported="false"
+109-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+110            android:initOrder="99" />
+110-->[com.google.mlkit:common:17.2.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+111
+112        <service
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+113            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+114            android:exported="false" >
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+115            <meta-data
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+116                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+117                android:value="cct" />
+117-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+118        </service>
+119        <service
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+121            android:exported="false"
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" >
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+123        </service>
+124
+125        <receiver
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+127            android:exported="false" />
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+128
+129        <activity
+129-->[com.google.android.gms:play-services-base:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+130            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+130-->[com.google.android.gms:play-services-base:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-base:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.google.android.gms:play-services-base:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.6.0] /Users/satryawiguna/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+137    </application>
+138
+139</manifest>
